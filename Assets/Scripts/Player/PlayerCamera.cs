@@ -4,7 +4,7 @@ using UnityEngine.InputSystem;
 public class PlayerCamera : MonoBehaviour
 {
     [SerializeField] private float sens;
-    [SerializeField] private Transform orientation;
+    [SerializeField] private Transform orientation, player;
     
     private float mouseX, mouseY, rotationX, rotationY;
     
@@ -26,5 +26,6 @@ public class PlayerCamera : MonoBehaviour
         
         transform.rotation = Quaternion.Euler(rotationX, rotationY, 0);
         orientation.rotation = Quaternion.Euler(0, rotationY + 90f, 0);
+        player.rotation = Quaternion.Euler(0, rotationY, 0);
     }
 }

@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.ltx.singletons": {
+      "version": "1.0.2",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://helteix-verdaccio.euvtgm.easypanel.host"
+    },
     "com.unity.ai.navigation": {
       "version": "2.0.4",
       "depth": 0,

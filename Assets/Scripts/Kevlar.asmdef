@@ -1,0 +1,17 @@
+{
+    "name": "Kevlar",
+    "rootNamespace": "Kevlar",
+    "references": [
+        "GUID:7f6fdd18b438ff245b7f869ddfb77b44",
+        "GUID:75469ad4d38634e559750d17036d5f7c"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
